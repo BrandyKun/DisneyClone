@@ -43,7 +43,7 @@ const Header = (props) => {
           dispatch(setSignOutState());
           history.push("/");
         })
-        .catch((error) => alert(err.message));
+        .catch((error) => alert(error.message));
     }
   };
 
